@@ -7,6 +7,29 @@ td, tr{
     border-collapse: collapse;
 }
 table{border-collapse: collapse;}
+
+.table-select-color{
+    position: fixed;
+    bottom: 20pt;
+    right: 55pt;
+}
+.td-table-select-color{
+    width: 40pt;
+    height: 40pt;
+}
+
+#red{background-color: red;}
+#tomato{background-color: tomato;}
+#darksalmon{background-color: darksalmon;}
+
+#blue{background-color: blue;}
+#royalblue{background-color: royalblue;}
+#cornflowerblue{background-color: cornflowerblue;}
+
+#green{background-color: green;}
+#teal{background-color: teal;}
+#cadetblue{background-color: cadetblue;}
+
 .form-height{
     position: fixed;
     bottom: 10pt;
@@ -30,7 +53,6 @@ table{border-collapse: collapse;}
     right: 100pt;
     font-size: 14pt;
 }
-
 .width{
     width: 300pt;
 }

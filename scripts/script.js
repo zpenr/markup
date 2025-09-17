@@ -19,7 +19,14 @@ function changeHeight(){
     
 }
 
+function changeColor(){
+    console.log("red")
+    var table = document.getElementsByTagName("table")[0];
+    table.setAttribute("style","background-color: red;");
+}
+
 var inputWidth = document.getElementsByClassName("width")[0];
 var inputHeight = document.getElementsByClassName("height")[0];
+document.getElementById("red").addEventListener("mouseover",changeColor);
 inputWidth.addEventListener("input", changeWidth);
 inputHeight.addEventListener("input", changeHeight);
