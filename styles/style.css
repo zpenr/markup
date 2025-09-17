@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td, tr{
+    padding: 10pt;
+    border: 2pt solid olive;
+    border-collapse: collapse;
+}
+table{border-collapse: collapse;}
+.form-height{
+    position: fixed;
+    bottom: 10pt;
+    right: 300pt;
+}
+.form-width{
+    position: fixed;
+    bottom: 220pt;
+    right: 10pt;
+}
+.height-text{
+    position: fixed;
+    bottom: 40pt;
+    right: 320pt;
+    line-height: 12pt;
+    font-size: 14pt;
+}
+.width-text{
+    position: fixed;
+    bottom: 225pt;
+    right: 100pt;
+    font-size: 14pt;
+}
+
+.width{
+    width: 300pt;
+}
+.height{
+    height: 200pt;
+    writing-mode: vertical-lr;
+    direction: rtl;
+
+}
