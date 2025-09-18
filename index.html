@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <link href="styles/style.css" rel="stylesheet" type = "text/css">
+    <link id = "css-style"href="styles/style.css" rel="stylesheet" type = "text/css">
     
 </head>
 <body>
@@ -73,7 +73,8 @@
     <input type="range" step="0.02" min="30" max="150" value="30" class = "height"/>
     <p class="height-text">В<br>ы<br>с<br>о<br>т<br>а<br> <br>я<br>ч<br>е<br>й<br>к<br>и</p>
     </form>
-    <button onclick="changeColor(9)">Сбросить цвет</button>
+    <button onclick="changeColor(9)" id = "reset-color">Сбросить цвет</button>
+    <button id = "changeTheme" onclick="changeTheme()">Сменить на тёмную тему</button>
     <script src="scripts/script.js"></script>
     <a href="pages/page2.html"> Задание со звёздочкой =></a>
 </body>

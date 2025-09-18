@@ -60,9 +60,36 @@ function changeColor(colorId){
             break;
         }
         case(9):{
-            table.setAttribute("style","background-color: white;");
+            table.setAttribute("style","background-color: transparent;");
             break;
         }
+    }
+}
+
+function changeTheme(){
+    var button = document.getElementById("changeTheme");
+    var old_css_link = document.getElementById("css-style");
+    if (button.textContent == "Сменить на тёмную тему"){
+        var new_css_link = document.createElement("link");
+
+        new_css_link.setAttribute("href","styles/dark-theme-for-index.css");
+        new_css_link.setAttribute("type","text/css");
+        new_css_link.setAttribute("rel","stylesheet");
+        new_css_link.setAttribute("id","css-style");
+        
+        document.getElementsByTagName("head")[0].replaceChild(new_css_link,old_css_link);
+        button.textContent = "Сменить на светлую тему";
+    }
+    else{
+        var new_css_link = document.createElement("link");
+
+        new_css_link.setAttribute("href","styles/style.css");
+        new_css_link.setAttribute("type","text/css");
+        new_css_link.setAttribute("rel","stylesheet");
+        new_css_link.setAttribute("id","css-style");
+        
+        document.getElementsByTagName("head")[0].replaceChild(new_css_link,old_css_link);
+        button.textContent = "Сменить на тёмную тему";
     }
 }
 

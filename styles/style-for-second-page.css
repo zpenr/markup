@@ -7,11 +7,8 @@ th{
 td{
     border-bottom: 2pt solid gray;
 }
-td:hover{
-    font-size: 45pt ;
-}
 table{
-    background-image: url("/img/table-background.jpg");
+    background-image: url("../img/table-background.jpg");
     background-size: 100% 100%;
     border: 2px solid #000;
     border-radius: 20px;
@@ -34,3 +31,5 @@ a{
 .first-col{width: 80pt;}
 .second-col{width:600pt;}
 .third-col{width: 130pt;}
+.second-col:hover{font-size: 45pt;}
+.third-col:hover{color: rgb(0, 123, 255);}

@@ -1,4 +1,6 @@
 body{
+    background-color: rgb(20, 11, 70);
+    color: blanchedalmond;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 td, tr{
@@ -12,22 +14,24 @@ a{
 }
 table{border-collapse: collapse;}
 button{
+    color: blanchedalmond;
     font-size: 14pt;
-    background-color: transparent;
+    background-color: rgb(131, 60, 201);
     border-radius: 8pt;
 }
 a{
     position: fixed;
     right: 25pt;
     top: 10pt;
+    color:azure;
+}
+button:hover{
+    background-color: rgba(131, 60, 201, 0.594);
 }
 #changeTheme{
     position: fixed;
     top: 30pt;
     right: 10pt;
-}
-button:hover{
-    background-color: rgb(192, 246, 232);
 }
 #reset-color{
     position: fixed;
