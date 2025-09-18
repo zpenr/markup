@@ -7,7 +7,14 @@ th{
 td{
     border-bottom: 2pt solid gray;
 }
+td:hover{
+    font-size: 45pt ;
+}
 table{
+    background-image: url("/img/table-background.jpg");
+    background-size: 100% 100%;
+    border: 2px solid #000;
+    border-radius: 20px;
     border-collapse: collapse;
 }
 body{
@@ -16,6 +23,13 @@ body{
 span{
     font-size: 15pt;
     color: gray;
+}
+a{
+    font-size: 30pt;
+    text-decoration: none;
+    position: fixed;
+    right:10pt;
+    top:10pt;
 }
 .first-col{width: 80pt;}
 .second-col{width:600pt;}
