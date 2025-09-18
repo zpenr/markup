@@ -5,12 +5,28 @@ td, tr{
     padding: 10pt;
     border: 2pt solid olive;
     border-collapse: collapse;
+    text-align: center;
 }
 table{border-collapse: collapse;}
-
+button{
+    position: fixed;
+    bottom: 5pt;
+    right: 95pt;
+    font-size: 14pt;
+    background-color: transparent;
+    border-radius: 8pt;
+}
+a{
+    position: fixed;
+    right: 10pt;
+    top: 10pt;
+}
+button:hover{
+    background-color: rgb(192, 246, 232);
+}
 .table-select-color{
     position: fixed;
-    bottom: 20pt;
+    bottom: 30pt;
     right: 55pt;
 }
 .td-table-select-color{

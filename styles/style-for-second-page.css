@@ -1,0 +1,22 @@
+th{
+    background-color: rgb(41, 101, 253);
+    color: #fff;
+    text-align: left;
+    padding-left: 10pt;
+}
+td{
+    border-bottom: 2pt solid gray;
+}
+table{
+    border-collapse: collapse;
+}
+body{
+    font-size: 40pt;
+}
+span{
+    font-size: 15pt;
+    color: gray;
+}
+.first-col{width: 80pt;}
+.second-col{width:600pt;}
+.third-col{width: 130pt;}
